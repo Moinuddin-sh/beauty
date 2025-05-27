@@ -27,6 +27,21 @@
 .nav-link:hover {
   color: #050505 !important;
 }
+.form-container form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: vertical;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-container form textarea:focus {
+  border-color: #036cdb;
+  outline: none;
+}
 
 
 
