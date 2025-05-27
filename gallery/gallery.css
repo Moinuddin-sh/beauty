@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+.navbar-custom {
+  background: rgba(255, 255, 255, 0.411);
+
+  backdrop-filter: blur(16px);
+
+  transition: background 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: #004c6d;
+
+}
+
+.nav-link {
+  color:#004c6d !important;
+  margin-right: 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #050505 !important;
+}
+
+
+
+.form-control {
+  border-color: #003366;
+}
+
+.custom-search-btn {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-search-btn:hover {
+  background-color: #05b2d1;
+}
+
+h1 {
+  color: #013661;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center fixed ;
+  backdrop-filter: blur(10px);
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+}
+
+
+.card-img-top {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensures the image covers the entire card area */
+    }
+
+    .card {
+      width: 100%;
+      height: 100%;
+      max-width: 320px;
+      overflow: hidden;
+    }
+
+    .container {
+      margin-top: 20px;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .col-12 {
+      padding: 5px;
+    }
+    h1{
+      text-align: center;
+      font-family: serif;
+    }
+
+    .card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease; /* smooth zoom effect */
+}
+
+.card-img-top:hover {
+  transform: scale(1.3); 
+}

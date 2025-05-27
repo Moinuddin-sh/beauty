@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="icon" href="../logo.png" type="image/png">
+
+    <link rel="stylesheet" href="./travel.css">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+
+<style>
+       body {
+  background-color: rgb(173, 214, 247);
+  font-family: Arial, sans-serif;
+}
+</style>
+
+</head>
+
+<body>
+
+
+   <nav class="navbar navbar-expand-lg navbar-light navbar-custom w-100"
+        style="position: sticky; top: 0; z-index: 1000;">
+         <img src="../logo.png" style="height: 50px; " alt="Logo">
+
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">Beauty of Beaches</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gallery/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../best time/best-time.html">Best time to visit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./travel.html">Travel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../faq/faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact us/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</br>
+</br>
+    <!-- Centered Booking Section -->
+    <section class="booking-section">
+        <div class="container">
+            <div class="booking-box mx-auto">
+                <div class="text-center mb-4">
+                    <h2 class="text-primary">Book Your Journey</h2>
+                    <p class="text-secondary">Find the best travel options for your next adventure</p>
+                </div>
+
+                <!-- Tabs -->
+                <ul class="nav nav-pills justify-content-center mb-4" id="bookingTabs">
+                    <li class="nav-item">
+                        <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#bus-form">Buses</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#flight-form">Flights</button>
+                    </li>
+                </ul>
+
+                <!-- Tab Content -->
+                <div class="tab-content">
+                    <!-- Dummy Results -->
+                    <div id="bus-results" class="mt-4 d-none">
+                        <h5 class="text-primary">Bus Results</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item">🚍 Express Travels - 8:00 AM - $499</li>
+                            <li class="list-group-item">🚍 CityLink Bus - 10:30 AM - $599</li>
+                            <li class="list-group-item">🚍 FastBus Services - 2:15 PM - $550</li>
+                        </ul>
+                    </div>
+
+                    <div id="flight-results" class="mt-4 d-none">
+                        <h5 class="text-primary">Flight Results</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item">✈️ British - 9:45 AM - $3499</li>
+                            <li class="list-group-item">✈️ Qatar - 1:30 PM - $3799</li>
+                            <li class="list-group-item">✈️ Emirate - 6:00 PM - $4299</li>
+                        </ul>
+                    </div>
+                    <!-- Bus Form -->
+                    <div class="tab-pane fade show active" id="bus-form">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">From</label>
+                                    <input type="text" class="form-control" placeholder="Departure city">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">To</label>
+                                    <input type="text" class="form-control" placeholder="Destination city">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Date</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Passengers</label>
+                                    <select class="form-select">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5+</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="button" class="btn btn-primary px-4 mt-2">Search Buses</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Flight Form -->
+                    <div class="tab-pane fade" id="flight-form">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">From</label>
+                                    <input type="text" class="form-control" placeholder="Departure city/airport">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">To</label>
+                                    <input type="text" class="form-control" placeholder="Destination city/airport">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Departure Date</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Return Date (Optional)</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Class</label>
+                                    <select class="form-select">
+                                        <option>Economy</option>
+                                        <option>Premium Economy</option>
+                                        <option>Business</option>
+                                        <option>First Class</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Passengers</label>
+                                    <select class="form-select">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5+</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="button" class="btn btn-primary px-4 mt-2">Search Flights</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</br>
+</br>
+    <!-- Feature Boxes Section -->
+    <section class="feature-boxes">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <div class="feature-icon">🚌</div>
+                            <h5 class="card-title">Wide Bus Network</h5>
+                            <p class="card-text">Connect to thousands of destinations with our extensive bus network.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <div class="feature-icon">✈️</div>
+                            <h5 class="card-title">Best Flight Deals</h5>
+                            <p class="card-text">Compare airline prices in real-time to find the best deals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <div class="feature-icon">🔒</div>
+                            <h5 class="card-title">Secure Booking</h5>
+                            <p class="card-text">All payments are encrypted and securely processed.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <div class="feature-icon">📱</div>
+                            <h5 class="card-title">Mobile Friendly</h5>
+                            <p class="card-text">Book on the go with our mobile-optimized site and apps.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer
+        style="background: linear-gradient(to right, #e0f7fa, #b2ebf2); color: #000; box-shadow: 0 0 15px rgba(0,0,0,0.1); position: relative;">
+        <div class="container py-5">
+            <div class="row">
+                <!-- Social Media -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase fw-bold mb-3" style="color: #036cdb;">Follow Us</h5>
+                    <a href="#" class="btn btn-outline-primary me-2 mb-2" style="border-radius: 50px;">
+                        <i class="bi bi-facebook"></i> Facebook
+                    </a>
+                    <a href="#" class="btn btn-outline-primary me-2 mb-2" style="border-radius: 50px;">
+                        <i class="bi bi-instagram"></i> Instagram
+                    </a>
+                </div>
+
+                <!-- Location Info -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase fw-bold mb-3" style="color: #036cdb;">Location</h5>
+                    <p><i class="bi bi-geo-alt-fill text-primary"></i> Beauty of Beaches, North campus Aptech</p>
+                    <p><i class="bi bi-envelope-fill text-primary"></i> contact@beautyofbeaches.com</p>
+                    <p><i class="bi bi-telephone-fill text-primary"></i> +92 0000000000</p>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase fw-bold mb-3" style="color: #036cdb;">Subscribe</h5>
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Your email" aria-label="Email">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                    <small class="text-muted">Stay updated with the latest beach guides and travel tips!</small>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: #036cdb; color: #fff; " class="text-center py-3">
+            © 2025 Beauty of Beaches — All rights reserved
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+<script>
+    document.querySelector('.btn.btn-primary:nth-of-type(1)').addEventListener('click', function () {
+        document.getElementById('bus-results').classList.remove('d-none');
+        document.getElementById('flight-results').classList.add('d-none');
+    });
+
+    document.querySelector('.btn.btn-primary:nth-of-type(2)').addEventListener('click', function () {
+        document.getElementById('flight-results').classList.remove('d-none');
+        document.getElementById('bus-results').classList.add('d-none');
+    });
+</script>
+</body>
+
+</html>

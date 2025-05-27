@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Beauty of Beaches</title>
+    <link rel="icon" href="./logo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index/style.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom w-100"
+        style="position: sticky; top: 0; z-index: 1000;">
+          <img src="./logo.png" style="height: 50px; " alt="Logo">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" style= "color: #004c6d; text-decoration: none; font-weight: 600;"
+                onmouseover="this.style.color='black'" onmouseout="this.style.color='#004c6d' " href="./index.html">Beauty of Beaches</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gallery/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./best time/best-time.html">Best time to visit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./travel/travel.html">Travel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faq/faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact us/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Full-Screen Background Video Hero Section -->
+    <div class="hero-video-section position-relative" style="height: 100vh; overflow: hidden;">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline preload="auto"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;animation: name duration timing-function delay iteration-count direction fill-mode;">
+            <source src="./index/images/slider/Aerial view of sand beach. Top view sea waves. Drone footage (1080p).mp4"
+                type="video/mp4">
+
+        </video>
+
+        <!-- Overlay for readability -->
+        <div class="position-absolute top-0 start-0 w-100 h-100"
+            style="background: rgba(94, 87, 87, 0.297); z-index: 1;"></div>
+
+        <!-- Website Title & Description -->
+        <div class="d-flex flex-column justify-content-center align-items-center text-white text-center h-100 position-relative"
+            style="z-index: 2;">
+            <h1
+                style="font-size: 4rem; font-weight: bold; text-shadow: 2px 2px 8px rgba(0,0,0,0.6);font-family: 'Great Vibes', cursive; ">
+                Beauty of Beaches
+            </h1>
+            <p style="font-size: 1.3rem; max-width: 700px; margin-bottom: 20px; color: white;">
+                Your ultimate destination to explore the world’s most iconic and breathtaking beaches. From pristine
+                coasts to tropical escapes — discover them all in one place.
+            </p>
+            <a href="./gallery/gallery.html" class="btn btn-light mt-2 px-4 py-2 fw-bold rounded-pill shadow">
+                Explore Beaches
+            </a>
+        </div>
+    </div>
+
+
+
+
+    </br>
+
+    <div class="cards d-flex flex-row justify-content-center flex-wrap gap-3">
+
+
+        <div class="card" style="width: 18rem; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+            <img src="./index/images/box/north.jpg" class="card-img-top" alt="north"
+                style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+                <h5 class="card-title">North Zone</h5>
+                <p class="card-text">The North Zone beaches feature tranquil shores, clear waters, and lush landscapes,
+                    perfect for relaxation and nature lovers.</p>
+                <a href="./Zones/Northzone.html" class="btn btn-primary" 
+                    rel="noopener noreferrer">Explore</a>
+            </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+            <img src="./index/images/box/south.jpg" class="card-img-top" alt="south"
+                style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+                <h5 class="card-title">South Zone</h5>
+                <p class="card-text">The South Zone beaches are vibrant, with exciting water sports, lively boardwalks,
+                    and beach bars, perfect for adventure seekers.</p>
+                <a href="./Zones/Southzone.html" class="btn btn-primary" 
+                    rel="noopener noreferrer">Explore</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+            <img src="./index/images/box/east.jpg" class="card-img-top" alt="east" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+                <h5 class="card-title">East Zone</h5>
+                <p class="card-text">The East Zone beaches offer stunning sunrises, perfect for surfing, yoga, and
+                    tidepool explorations, blending energy and tranquility.</p>
+                <a href="./Zones/eastzone.html" class="btn btn-primary">Explore</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+            <img src="./index/images/box/west.jpg" class="card-img-top" alt="west" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+                <h5 class="card-title">West Zone</h5>
+                <p class="card-text">The West Zone beaches are ideal for sunset views, romantic escapes, and relaxing
+                    evenings by the shore, perfect for stargazing.</p>
+                <a href="./Zones/westzone.html" class="btn btn-primary">Explore</a>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+    </br>
+    <div class="text-center px-4 py-5 shadow-lg"
+        style="background: linear-gradient(to right, #e0f2f1, #b2dfdb); border-radius: 15px; margin: 2rem auto; max-width: 900px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);">
+        <h3 style="color: #036cdb;">Explore the Beaches</h3>
+        <hr style="width: 80px; border: 2px solid #036cdb; margin: 1rem auto;">
+
+        <p class="mx-auto" style="max-width: 800px; font-size: 1.1rem;">
+
+            🌊 <strong>North Zone Beaches</strong><br>
+            <em>Serenity & Nature</em><br>
+            The northern coastline offers pristine, less-crowded beaches known for their serenity and natural beauty.
+            These
+            shores are perfect for peaceful morning walks, birdwatching, and enjoying golden sunsets. Don't miss Palm
+            Cove
+            and Hidden Sands Beach, where calm waters meet lush green cliffs.
+            <hr style="width: 60%; margin: 2rem auto;">
+
+            ☀️ <strong>South Zone Beaches</strong><br>
+            <em>Adventure & Fun</em><br>
+            The south zone is a haven for adventure seekers and party lovers. With lively boardwalks, beach bars and
+            water
+            sports, beaches like Sunny Shore and Laguna Bay promise non-stop excitement. Perfect for jet skiing, beach
+            volleyball, and evening bonfires.
+            <hr style="width: 60%; margin: 2rem auto;">
+
+            🌅 <strong>East Zone Beaches</strong><br>
+            <em>Sunrises & Surf</em><br>
+            Wake up to breathtaking sunrises along the eastern beaches. Popular for early-morning yoga sessions,
+            tidepool
+            explorations, and surf-friendly waves, spots like Coral Point and Seabreeze Beach offer a blend of energy
+            and
+            tranquility.
+            <hr style="width: 60%; margin: 2rem auto;">
+
+
+            🌄 <strong>West Zone Beaches</strong><br>
+            <e>Sunsets & Romance</em><br>
+                The western coast is ideal for sunset lovers and romantic escapes. Think golden-hour photo ops, calm
+                tides, and
+                cozy beach cafes. Amber Coast and Dune Cove are perfect for laid-back evenings and stargazing by the
+                shore.
+        </p>
+    </div>
+
+
+    <div class="text-center px-4 py-5" style="background: linear-gradient(to right, #e0f7fa, #b2ebf2); 
+           border-radius: 15px; 
+           margin: 2rem auto; 
+           max-width: 100%; 
+           box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);">
+        <h3 style="color: #036cdb;">About Us</h3>
+        <hr style="width: 60%; margin: 2rem auto;">
+        <h4>Welcome to Beauty of Beaches - Your Gateway to Coastal Wonders!</h4>
+        <p class="mx-auto" style="max-width: 800px; font-size: 1.1rem;">
+            At Beauty of Beaches, we’re passionate about bringing the beauty, diversity, and adventure of beaches to
+            life.
+            Our
+            mission is to guide travelers, explorers, and beach lovers through the best coastal destinations across the
+            North, South, East, and West zones.<br><br>
+
+            Whether you're looking for tranquil shores or vibrant surf spots, Beauty of Beaches is your trusted
+            companion
+            for
+            discovering beaches that suit every mood and season.<br><br>
+
+            At Beauty of Beaches, we do more than just list beaches — we tell their stories. From local tips to hidden
+            gems,
+            we’re
+            here to help you make the most of every coastal journey.<br><br>
+
+            Let the waves guide you — with Beauty of Beaches by your side.
+        </p>
+    </div>
+
+    <footer
+        style="background: linear-gradient(to right, #e0f7fa, #b2ebf2); color: #000; box-shadow: 0 0 15px rgba(0,0,0,0.1); position: relative;">
+        <div class="container py-5">
+            <div class="row">
+                <!-- Social Media -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase fw-bold mb-3" style="color: #036cdb;">Follow Us</h5>
+                    <a href="#" class="btn btn-outline-primary me-2 mb-2" style="border-radius: 50px;">
+                        <i class="bi bi-facebook"></i> Facebook
+                    </a>
+                    <a href="#" class="btn btn-outline-primary me-2 mb-2" style="border-radius: 50px;">
+                        <i class="bi bi-instagram"></i> Instagram
+                    </a>
+                </div>
+
+                <!-- Location Info -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase fw-bold mb-3" style="color: #036cdb;">Location</h5>
+                    <p><i class="bi bi-geo-alt-fill text-primary"></i> Beauty of Beaches, North campus Aptech</p>
+                    <p><i class="bi bi-envelope-fill text-primary"></i> contact@beautyofbeaches.com</p>
+                    <p><i class="bi bi-telephone-fill text-primary"></i> +92 0000000000</p>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase fw-bold mb-3" style="color: #036cdb;">Subscribe</h5>
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Your email" aria-label="Email">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                    <small class="text-muted">Stay updated with the latest beach guides and travel tips!</small>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: #036cdb; color: #fff; " class="text-center py-3">
+            © 2025 Beauty of Beaches — All rights reserved
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</html>

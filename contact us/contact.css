@@ -1,0 +1,98 @@
+   * {
+     box-sizing: border-box;
+     padding: 0%;
+     margin: 0%;
+   }
+
+   .navbar-custom {
+     background: rgba(255, 255, 255, 0.411);
+
+     backdrop-filter: blur(16px);
+
+     transition: background 0.3s ease-in-out;
+   }
+
+   .navbar-brand {
+  font-weight: 600;
+  color: #004c6d;
+
+}
+
+.nav-link {
+  color:#004c6d !important;
+  margin-right: 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #050505 !important;
+}
+
+
+
+
+
+
+
+body {
+
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+   backdrop-filter: blur(10px);
+  overflow-x: hidden;
+}
+
+
+
+/* Form container styles */
+.form-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.form-container form .field {
+  margin-bottom: 20px;
+}
+
+.form-container form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+  color: #036cdb;
+}
+
+.form-container form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.3s;
+}
+
+.form-container form input:focus {
+  border-color: #036cdb;
+  outline: none;
+}
+
+.form-container form button {
+  width: 100%;
+  background-color: #036cdb;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.form-container form button:hover {
+  background-color: #025bb5;
+}

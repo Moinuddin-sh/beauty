@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="../logo.png" type="image/png">
+
+    <link rel="stylesheet" href="./contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom w-100"
+        style="position: sticky; top: 0; z-index: 1000;">
+        <img src="../logo.png" style="height: 50px; " alt="Logo">
+
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" style="color: #004c6d; text-decoration: none; font-weight: 600;"
+                onmouseover="this.style.color='black'" onmouseout="this.style.color='#004c6d' "
+                href="../index.html">Beauty of Beaches</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gallery/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../best time/best-time.html">Best time to visit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../travel/travel.html">Travel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../faq/faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- CONATCT US FORM/ -->
+    <div class="container">
+        <div class="form-container">
+            <form>
+                <div class="field">
+                    <label>Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="field">
+                    <label>Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="field">
+                    <label>Contact:</label>
+                    <input type="number" id="contact" placeholder="Enter your contact" required>
+                </div>
+                <div class="field">
+                    <label>Feedback:</label>
+                    <textarea id="comments" name="comments" rows="4" cols="50" style="padding: 10px;"
+                        placeholder="Write your feedback here..."></textarea><br><br>
+
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+    <footer
+        style="background: linear-gradient(to right, #e0f7fa, #b2ebf2); color: #000; box-shadow: 0 0 15px rgba(0,0,0,0.1); position: relative;">
+        <div class="container py-5">
+            <div class="row">
+                <!-- Social Media -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase fw-bold mb-3" style="color: #036cdb;">Follow Us</h5>
+                    <a href="#" class="btn btn-outline-primary me-2 mb-2" style="border-radius: 50px;">
+                        <i class="bi bi-facebook"></i> Facebook
+                    </a>
+                    <a href="#" class="btn btn-outline-primary me-2 mb-2" style="border-radius: 50px;">
+                        <i class="bi bi-instagram"></i> Instagram
+                    </a>
+                </div>
+
+                <!-- Location Info -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase fw-bold mb-3" style="color: #036cdb;">Location</h5>
+                    <p><i class="bi bi-geo-alt-fill text-primary"></i> Beauty of Beaches, North campus Aptech</p>
+                    <p><i class="bi bi-envelope-fill text-primary"></i> contact@beautyofbeaches.com</p>
+                    <p><i class="bi bi-telephone-fill text-primary"></i> +92 0000000000</p>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase fw-bold mb-3" style="color: #036cdb;">Subscribe</h5>
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Your email" aria-label="Email">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                    <small class="text-muted">Stay updated with the latest beach guides and travel tips!</small>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: #036cdb; color: #fff; " class="text-center py-3">
+            © 2025 Beauty of Beaches — All rights reserved
+        </div>
+    </footer>
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</html>
